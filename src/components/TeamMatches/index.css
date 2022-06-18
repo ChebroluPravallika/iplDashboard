@@ -1,0 +1,10 @@
+.Container {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+
+.team-banner {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  padding-top: 40px;
+}

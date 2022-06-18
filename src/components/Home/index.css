@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.Container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+}
+
+.iplLogoImg {
+  height: 60px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Heading {
+  display: flex;
+  color: #ffffff;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
