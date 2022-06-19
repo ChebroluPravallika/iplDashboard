@@ -1,10 +1,27 @@
 .Container {
   background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  width: 100%;
 }
 
 .team-banner {
-  width: 80%;
+  width: 90%;
   display: flex;
   margin: auto;
   padding-top: 40px;
+}
+
+.app-team-matches-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent-matches-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }

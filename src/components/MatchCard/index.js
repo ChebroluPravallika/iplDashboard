@@ -5,12 +5,18 @@ class MatchCard extends Component {
   render() {
     const {matchData} = this.props
     const {result, competingTeam, competingTeamLogo, matchStatus} = matchData
+    const clsName = matchStatus === 'Won' ? 'won' : 'lose'
+
     return (
-      <li>
-        <img src={competingTeamLogo} alt={competingTeam} />
-        <h1>{competingTeam}</h1>
+      <li className="matchCard">
+        <img
+          src={competingTeamLogo}
+          alt={`latest-match ${competingTeam}`}
+          className="image"
+        />
+        <p className="heading">{competingTeam}</p>
         <p>{result}</p>
-        <p>{matchStatus}</p>
+        <p className={clsName}>{matchStatus}</p>
       </li>
     )
   }

@@ -1,6 +1,88 @@
 .teamImage {
-  width: 80%;
+  width: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.teamLogo {
+  height: 190px;
+}
+
+.Innings {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.head {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.teamInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25%;
+}
+.inningsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+
+@media (max-width: 900px) {
+  .teamLogo {
+    height: 120px;
+  }
+
+  .teamInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 25%;
+  }
+  .Innings {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 500px) {
+  .teamLogo {
+    height: 80px;
+  }
+
+  .teamInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 25%;
+    font-size: 10px;
+  }
+
+  .Innings {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 10px;
+  }
+
+  .head {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .heading {
+    font-size: 20px;
+  }
 }

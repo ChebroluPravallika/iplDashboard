@@ -18,40 +18,50 @@ class LatestMatch extends Component {
 
     return (
       <div>
-        <h1 style={{color: '#ffffff'}}>Latest Matches</h1>
+        <h1 style={{color: '#ffffff', marginLeft: '5%'}}>Latest Matches</h1>
         <div
           style={{
             backgroundColor: 'black',
-            width: '80%',
+            width: '90%',
             margin: 'auto',
-            padding: '20px',
+            padding: '5%',
           }}
         >
-          <div style={{display: 'flex', flexDirection: 'row'}}>
-            <div style={{color: 'white'}}>
-              <h1>{competingTeam}</h1>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+            }}
+          >
+            <div style={{color: 'white'}} className="teamInfo">
+              <h1 className="heading">{competingTeam}</h1>
               <p>{date}</p>
               <p>{venue}</p>
               <p>{result}</p>
             </div>
             <div className="teamImage">
-              <img src={competingTeamLogo} alt={competingTeam} />
+              <img
+                src={competingTeamLogo}
+                alt="latest match {competingTeam}"
+                className="teamLogo"
+              />
             </div>
-            <div>
-              <div style={{color: 'white'}}>
-                <p>First Innings</p>
+            <div className="inningsContainer">
+              <div className="Innings">
+                <p className="head">First Innings</p>
                 <p>{firstInnings}</p>
               </div>
-              <div style={{color: 'white'}}>
-                <p>Second Innings</p>
+              <div className="Innings">
+                <p className="head">Second Innings</p>
                 <p>{secondInnings}</p>
               </div>
-              <div style={{color: 'white'}}>
-                <p>Man Of The Match</p>
+              <div className="Innings">
+                <p className="head">Man Of The Match</p>
                 <p>{manOfTheMatch}</p>
               </div>
-              <div style={{color: 'white'}}>
-                <p>Umpires</p>
+              <div className="Innings">
+                <p className="head">Umpires</p>
                 <p>{umpires}</p>
               </div>
             </div>

@@ -45,8 +45,8 @@ class Home extends Component {
   render() {
     const {isLoading} = this.state
     return (
-      <div className="Container">
-        <div>
+      <div>
+        <div className="cardContainer">
           <div
             style={{display: 'flex', flexDirection: 'row'}}
             className="Heading"

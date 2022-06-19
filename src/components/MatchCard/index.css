@@ -1,1 +1,53 @@
 /* Write your CSS here */
+.matchCard {
+  list-style: none;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 25%;
+  margin-right: 5%;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 400px;
+  text-align: center;
+}
+
+.image {
+  height: 100px;
+}
+
+.won {
+  color: #18ed66;
+}
+.lose {
+  color: #e31a1a;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+@media (max-width: 539px) {
+  .matchCard {
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 400px;
+    text-align: center;
+  }
+  .image {
+    height: 70px;
+    width: 50px;
+  }
+}
