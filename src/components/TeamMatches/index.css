@@ -1,8 +1,3 @@
-.Container {
-  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
-  width: 100%;
-}
-
 .team-banner {
   width: 90%;
   display: flex;
@@ -24,4 +19,34 @@
   justify-content: center;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.RCB {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.KKR {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
+
+.KXP {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.CSK {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.RR {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.MI {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+.SH {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+.DC {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
 }
